@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color:#0F1111 ;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+/* Box 2 - Address- Delivery To India */
+
+.add-first{
+    color: #CCCC;
+    font-size: 0.8rem;
+    margin-left: 15px; /* Distance between location icon and 'deliver to' */
+}
+
+.add-second{
+    color:#FFFF;
+    font-size: 1rem;
+    margin-left: 3px; /*Distance between location item and 'India'*/
+}
+
+.add-icon{
+    display:flex; 
+    align-items: center;
+}
+
+/* Box 3: Search Bar */
+.nav-search{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: yellow;
+    width: 600px;
+    height: 40px;
+    border-radius:5px;
+}
+
+.search-select{
+    background-color:  #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display:flex;
+    justify-content: center; /*Horizontally Center*/
+    align-items: center; /*Vertically Center*/
+    font-size: 1.3rem;
+    background-color: rgb(227, 187, 6);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+/* Box 4 and 5: Sign-In and Returns & Orders */
+span{
+    font-size: 0.7rem;
+    color: #FFFFFF;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight:700 ;
+}
+
+/* Box 6: Cart */
+/* Only Applied to i tag under nav-cart div */
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* Step 2 - Panel */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-options p{
+    display: inline;
+    margin-left: 15px;
+    font-weight: 300;
+}
+
+.panel-options{
+    width: 70%; /*So it will take required space*/
+    font-size: 0.90rem; /*As it is smaller to shop deals*/
+}
+
+
+.panel-deals{
+    font-size: 0.95rem;
+    font-weight: bold;
+}
+
+/* Step 3 - Hero Image */
+.hero-section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-message{
+   background-color: white; 
+   color: #0F1111;
+   height: 40px;
+   width: 80%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   font-size: 0.9rem;
+   margin-bottom: 25px;
+
+}
+
+.hero-message a{
+    color: #007185;
+    text-decoration: none;
+}
+
+/* Step 4 - Shop Section */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap; /*Only 4 box in one line*/
+    justify-content: space-evenly;
+    background-color:gainsboro;
+}
+
+.box{
+    width: 350px;
+    height: 420px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px; /*Check from Box Model by inspect*/
+    margin-top: 15px;
+}
+
+
+.box-image{
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem ;
+}
+
+.box-content p{
+    margin-top: 15px;
+     color: #007185
+}
+
+/*Step 5 - Footer*/
+.foot-panel1{
+    margin-top: 20px;
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.foot-panel2{
+    height: 400px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a{
+    display: block;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: #DDDDDD
+}
+ 
+ul p{
+    font-weight: bold;
+}
+
+.foot-panel2 ul {
+    margin-top: 40px;
+}
+
+.foot-panel3
+{
+    background-color: #222f3d;
+    color: #DDDDDD;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top:0.5px solid rgba(227, 227, 227, 0.758);
+}    
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.english{
+    height: 33px;
+    padding: 0px 8px 0px 8px;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    color: #CCC;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.dollar{
+    height: 33px;
+    padding: 0px 8px 0px 8px;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    color: #CCC;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.United{
+    height: 33px;
+    padding: 0px 8px 0px 8px;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    color: #CCC;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.foot-panel4{
+    background-color: #131A22;
+    color: white;
+    height: 76px;
+   
+}
+
+.pages{
+    font-size: 0.75rem;
+    text-align: center;
+    padding-top: 25px ;
+}
+
+.copyright{
+    padding-top: 5px;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.pages a{
+    padding: 5px;
+}
